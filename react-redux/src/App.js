@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import Quote from "./components/Quote";
 import * as reducers from "./state/reducers";
 import styled from 'styled-components';
+
 const StyledApp = styled.div`
   display: flex;
   flex-direction: column;

@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import * as actionCreators from "../state/actionCreators";
-import styled from 'styled-components';
-// font-family: 'Shadows Into Light', cursive;
-// font-family: 'Amatic SC', cursive;
-// font-family: 'Shadows Into Light Two', cursive;
+import styled from "styled-components";
 
 const StyledYe = styled.div`
   display: flex;
@@ -14,29 +11,30 @@ const StyledYe = styled.div`
   height: 100%;
   width: 100vw;
   text-align: center;
-  
-  img{
+
+  img {
     width: 100%;
     position: fixed;
     bottom: 0;
-  } 
+  }
   p {
-    color: #89A0DE;
+    color: #89a0de;
     font-size: 2rem;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: "Shadows Into Light Two", cursive;
     width: 70%;
   }
   button {
-   position: fixed;
-   margin-top: 32vh;
+    position: fixed;
+    margin-top: 32vh;
     z-index: 1;
     height: 3rem;
     width: 50vw;
     border-radius: 10px;
-    background-color: rgba(130,229,130, 0.8);
+    background-color: rgba(130, 229, 130, 0.8);
     border: none;
     font-size: 1.8rem;
     color: white;
+    cursor: pointer;
   }
 `;
 
