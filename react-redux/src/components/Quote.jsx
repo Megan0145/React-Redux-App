@@ -11,7 +11,7 @@ export function Quote({ getKanyeQuote, quote }) {
 
   return (
     <div>
-     <p>{quote.loading}</p>
+     <p>{quote.quote}</p>
       
     </div>
   );
