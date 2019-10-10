@@ -4,11 +4,11 @@ import ReactDOM from "react-dom";
 import thunk from "redux-thunk";
 import { combineReducers, createStore, compose, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
-import Test from "./components/Test";
+import Quote from "./components/Quote";
 import * as reducers from "./state/reducers";
 
 const monsterReducer = combineReducers({
-  test: reducers.testReducer
+  quote: reducers.quoteReducer
 });
 
 const store = createStore(
@@ -25,7 +25,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <h1>My app</h1>
-        <Test />
+        <Quote />
       </div>
     </Provider>
   );
